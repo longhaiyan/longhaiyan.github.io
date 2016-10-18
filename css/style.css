@@ -32,7 +32,7 @@
 .widget h6,
 .article-entry h6 {
   font-size: 1em;
-  color: #aaa;
+  color: #681f1f;
 }
 .widget hr,
 .article-entry hr {
@@ -268,11 +268,10 @@ code {
 }
 .logo {
   display: block;
-  padding: 10px 0;
   width: 120px;
   height: 120px;
+  border-radius: 100%;
   background-image: url("images/logo-header.png");
-  background-position: 0px 10px;
   background-repeat: no-repeat;
   -webkit-background-size: 120px 120px;
   -moz-background-size: 120px 120px;
@@ -308,7 +307,7 @@ code {
   min-height: 600px;
 }
 #main .main-body-header {
-  background: #fff;
+  background: rgba(224,200,200,0.7);
   position: relative;
   padding: 18px 30px 17px;
   border-bottom: 1px solid #eee;
@@ -327,7 +326,7 @@ code {
 }
 #main .main-body-header em,
 #main .main-body-header a {
-  color: #aaa;
+  color: #681f1f;
 }
 #main .main-body-content:before,
 #main .main-body-content:after {
@@ -370,9 +369,9 @@ code {
   margin-left: 20px;
 }
 #header-title .subtitle {
-  font-size: 23px;
+  font-size: 27px;
   font-style: italic;
-  color: #000;
+  color: #b56ea6;
   text-shadow: 0 3px rgba(0,0,0,0.2);
 }
 .nav-container .nav-icon,
@@ -557,7 +556,7 @@ code {
   display: none;
 }
 #sidebar .sidebar-top {
-  background: #82b419;
+  background: rgba(146,134,134,0.5);
   padding: 15px 30px;
 }
 #sidebar .sidebar-top:before,
@@ -648,7 +647,7 @@ code {
   position: relative;
   margin-top: 0;
   display: block;
-  color: #aaa;
+  color: #681f1f;
   padding: 16px 40px 24px;
   border-bottom: 1px solid #ddd;
   -webkit-transition: 0.2s ease-in;
@@ -681,7 +680,7 @@ code {
 .article-nav-caption {
   display: block;
   font-size: 12px;
-  color: #aaa;
+  color: #681f1f;
   letter-spacing: 0.5px;
   line-height: 24px;
   font-weight: normal;
@@ -695,7 +694,7 @@ code {
   padding: 30px 30px 20px;
 }
 .widget-title {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
   margin-bottom: 6px;
@@ -847,7 +846,7 @@ code {
 }
 #recent-post li .item-inner a,
 #recent-post li .item-inner .item-category {
-  font-size: 13px;
+  font-size: 16px;
   text-transform: uppercase;
 }
 #recent-post li .item-inner a a,
@@ -889,7 +888,7 @@ code {
 .tag-list-count,
 .archive-list-count {
   padding-left: 5px;
-  color: #aaa;
+  color: #681f1f;
   font-size: 0.85em;
 }
 .category-list-count:before,
@@ -1212,7 +1211,7 @@ a.article-title:hover {
   margin-left: 1em;
 }
 .article-entry .caption {
-  color: #aaa;
+  color: #681f1f;
   display: block;
   font-size: 0.9em;
   margin-top: 0.5em;
@@ -1241,7 +1240,7 @@ a.article-title:hover {
   padding: 6px 15px;
   border-radius: 15px;
   background: #eaeaea;
-  color: #aaa;
+  color: #681f1f;
   text-shadow: 0 1px #fff;
   text-decoration: none;
 }
@@ -1266,7 +1265,7 @@ a.article-title:hover {
   clear: both;
 }
 .article-footer a {
-  color: #aaa;
+  color: #681f1f;
   text-decoration: none;
 }
 .article-footer a:hover {
@@ -1515,7 +1514,7 @@ a.article-title:hover {
   margin-top: 1em;
 }
 .archive-article-date {
-  color: #aaa;
+  color: #681f1f;
   text-decoration: none;
   font-size: 0.85em;
   line-height: 1em;
@@ -1528,7 +1527,7 @@ a.article-title:hover {
   display: block;
   margin: 30px 0px 45px 0px;
   text-align: center;
-  color: #aaa;
+  color: #681f1f;
 }
 #page-nav:before,
 #page-nav:after {
@@ -1582,9 +1581,9 @@ a.article-title:hover {
   color: #ddd;
 }
 #footer {
-  background: #33363b;
+  background: #666a71;
   margin-top: 60px;
-  color: #aaa;
+  color: #681f1f;
   line-height: 1.6em;
 }
 #footer a {
