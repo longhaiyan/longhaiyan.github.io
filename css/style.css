@@ -286,8 +286,8 @@ code {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-box-shadow: rgba(0,0,0,0.098) 0px 1px 1px 0px;
-  box-shadow: rgba(0,0,0,0.098) 0px 1px 1px 0px;
+  -webkit-box-shadow: rgba(0,0,0,0.1) -1px 15px 17px 5px;
+  box-shadow: rgba(0,0,0,0.1) -1px 15px 17px 5px;
   padding-left: 340px;
 }
 .main-body-inner:before,
@@ -309,13 +309,14 @@ code {
 #main .main-body-header {
   background: rgba(224,200,200,0.7);
   position: relative;
-  padding: 18px 30px 17px;
+  padding: 17px 30px 17px;
   border-bottom: 1px solid #eee;
   color: #666;
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
   line-height: 24px;
+  border-bottom: 2px solid #f3e0ca;
 }
 #main .main-body-header .page-title-link,
 #main .main-body-header i {
@@ -557,7 +558,8 @@ code {
 }
 #sidebar .sidebar-top {
   background: rgba(146,134,134,0.5);
-  padding: 15px 30px;
+  padding: 14px 30px;
+  border-bottom: 2px solid #f3e0ca;
 }
 #sidebar .sidebar-top:before,
 #sidebar .sidebar-top:after {
