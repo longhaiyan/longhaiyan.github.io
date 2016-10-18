@@ -280,7 +280,7 @@ code {
 }
 .main-body {
   margin-top: -60px;
-  background-color: #fff;
+  background-color: rgba(232,238,226,0.8);
 }
 .main-body-inner {
   position: relative;
@@ -290,7 +290,6 @@ code {
   -webkit-box-shadow: rgba(0,0,0,0.098) 0px 1px 1px 0px;
   box-shadow: rgba(0,0,0,0.098) 0px 1px 1px 0px;
   padding-left: 340px;
-  background: url("images/s-left.png") repeat-y left 0;
 }
 .main-body-inner:before,
 .main-body-inner:after {
@@ -339,7 +338,7 @@ code {
   clear: both;
 }
 #header {
-  background: rgba(255,255,255,0.5);
+  background: rgba(210,233,255,0.5);
   padding-bottom: 60px;
   position: relative;
 }
