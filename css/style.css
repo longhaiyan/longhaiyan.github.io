@@ -265,9 +265,10 @@ code {
 }
 .logo {
   display: block;
-  padding: 10px 0;
-  width: 165px;
-  height: 60px;
+  /*padding: 10px 0;*/
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
   background-image: url("images/logo-header.png");
   background-position: 0px 10px;
   background-repeat: no-repeat;
