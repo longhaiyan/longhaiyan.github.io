@@ -552,6 +552,7 @@ code {
   float: left;
   margin-left: -340px;
   width: 340px;
+  background: rgba(230,164,164,0.3);
 }
 #sidebar .sidebar-toggle {
   display: none;
