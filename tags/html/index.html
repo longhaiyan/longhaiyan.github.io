@@ -3,18 +3,15 @@
 <head>
     <meta charset="utf-8">
     
-    <title>表单重置及获取value的坑 | 海燕的个人记事本</title>
+    <title>标签：: html | 海燕的个人记事本</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-        <meta name="keywords" content="" />
-    
-    <meta property="og:type" content="article">
-<meta property="og:title" content="表单重置及获取value的坑">
-<meta property="og:url" content="http://yoursite.com/2016/10/19/表单重置及获取value的坑/index.html">
+    <meta property="og:type" content="website">
+<meta property="og:title" content="海燕的个人记事本">
+<meta property="og:url" content="http://yoursite.com/tags/html/index.html">
 <meta property="og:site_name" content="海燕的个人记事本">
-<meta property="og:updated_time" content="2016-10-19T03:17:49.851Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="表单重置及获取value的坑">
+<meta name="twitter:title" content="海燕的个人记事本">
     
 
     
@@ -123,113 +120,78 @@
                         <div class="main-body-header">
     <h1 class="header">
     
-    未分类
+    <i class="icon fa fa-tag"></i>标签：: <em>html</em>
     </h1>
 </div>
                         <div class="main-body-content">
-                            <article id="post-表单重置及获取value的坑" class="article article-single article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
+                            
+
+    
+    
         
-            <header class="article-header">
-                
+        
+        <section class="archives-wrap">
+            <div class="archive-year-wrap">
+                <a href="/archives/2016" class="archive-year"><i class="icon fa fa-calendar-o"></i>2016</a>
+            </div>
+            <div class="archives">
+    
+    
+    
+        <div class="article-row">
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <a href="/2016/10/19/设置网页图标favicon-ico/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/2016/10/19/设置网页图标favicon-ico/1.jpg)" alt="设置网页图标favicon.ico" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://yoursite.com/2016/10/19/设置网页图标favicon-ico/">0</span>
+    
+</span>
+
+    
+</a>
+
+        
+        <div class="article-meta">
+            <p class="category">
+            
+            </p>
+            <p class="date"><time datetime="2016-10-19T03:32:45.000Z" itemprop="datePublished">2016-10-19</time></p>
+        </div>
+        
     
         <h1 class="article-title" itemprop="name">
-        表单重置及获取value的坑
+        <a href="/2016/10/19/设置网页图标favicon-ico/">设置网页图标favicon.ico</a>
         </h1>
     
 
-            </header>
-        
-        
-            <div class="article-subtitle">
-                <a href="/2016/10/19/表单重置及获取value的坑/" class="article-date">
-    <time datetime="2016-10-19T03:17:49.000Z" itemprop="datePublished">2016-10-19</time>
-</a>
-                
-            </div>
-        
-        
-        <div class="article-entry" itemprop="articleBody">
+        <p class="article-excerpt">
             
-        </div>
-        <footer class="article-footer">
-            
-
-
-
-    <a data-url="http://yoursite.com/2016/10/19/表单重置及获取value的坑/" data-id="ciugdu23j000tl0isncxox9o1" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
-<script>
-    (function ($) {
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-</script>
-
-        </footer>
+favicon.ico
+简介：favicon.ico，网页图片，是浏览器顶部网页地址栏的小图标，如下图，格式一般为ico现在的某些浏览器也支持png或gif
+设置方法
+直接在网站根目录下放置favicon.ico图片（部分浏览器支持）
+在hmtl的&lt;head&gt;&lt;/head&gt;标签中添加如下代码12&lt;link rel=&quot;shortcut icon&quot; 
+        </p>
     </div>
 </article>
-
-    <section id="comments">
     
-        
-    <div id="disqus_thread">
-        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    </div>
-
+        </div>
     
-    </section>
+
+
+    </div></section>
+
+
 
                         </div>
                     </section>
@@ -273,29 +235,6 @@
             
         </ul>
     </div>
-    
-        
-<nav id="article-nav">
-    
-        <a href="/2016/10/19/使用FormData对象上传文件/" id="article-nav-newer" class="article-nav-link-wrap">
-        <strong class="article-nav-caption">下一篇</strong>
-        <p class="article-nav-title">
-        
-            使用FormData对象上传文件
-        
-        </p>
-        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
-    </a>
-    
-    
-        <a href="/2016/10/19/标签属性disabled和readonly的区别/" id="article-nav-older" class="article-nav-link-wrap">
-        <strong class="article-nav-caption">上一篇</strong>
-        <p class="article-nav-title">标签属性disabled和readonly的区别</p>
-        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
-        </a>
-    
-</nav>
-
     
     <div class="widgets-container">
         
@@ -486,13 +425,11 @@
     var disqus_shortname = 'hexo-theme-hueman';
     
     
-    var disqus_url = 'http://yoursite.com/2016/10/19/表单重置及获取value的坑/';
-    
     (function() {
     var dsq = document.createElement('script');
     dsq.type = 'text/javascript';
     dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
     </script>
