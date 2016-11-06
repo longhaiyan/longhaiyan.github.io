@@ -850,7 +850,6 @@ code {
 #recent-post li .item-inner a,
 #recent-post li .item-inner .item-category {
   font-size: 16px;
-  text-transform: uppercase;
 }
 #recent-post li .item-inner a a,
 #recent-post li .item-inner .item-category a {
@@ -885,7 +884,7 @@ code {
   opacity: 0.8;
 }
 #recent-post li:hover .item-title a {
-  color: #006bde;
+  color: #c65d5d;
 }
 .category-list-count,
 .tag-list-count,
@@ -1045,7 +1044,7 @@ code {
   opacity: 0.7;
 }
 .article-summary:hover .article-title a {
-  color: #006bde;
+  color: #c65d5d;
 }
 .article-category {
   float: left;
