@@ -1583,7 +1583,7 @@ a.article-title:hover {
   color: #ddd;
 }
 #footer {
-  background: #666a71;
+  background: #a4a69a;
   margin-top: 60px;
   color: #681f1f;
   line-height: 1.6em;
@@ -1912,7 +1912,7 @@ i.icon:before {
     color: rgba(255,255,255,0.7);
     text-align: center;
     height: 50px;
-    background: #006bde;
+    background: #a7b4c2;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
