@@ -325,7 +325,8 @@ favicon.ico
     
 
         <p class="article-excerpt">
-            
+            window的history对象借助window的history对象可以实现「返回上一页」的功能12window.history.go(-1);//返回上一页，传入的参数为 -2 的话，就是返回上两页window.history.back();//返回上一页
+注意：以上两种方法中window可以去掉,back()是直接返回上一页，但是该页面上的信息会丢失，相当于新开的页面。go()不一样，它保留了
         </p>
     </div>
 </article>
@@ -345,7 +346,7 @@ favicon.ico
         <a href="/2016/10/19/box-shadow的用法/" class="thumbnail">
     
     
-        <span style="background-image:url(/2016/10/19/box-shadow的用法/)" alt="box-shadow的用法" class="thumbnail-image"></span>
+        <span style="background-image:url(/2016/10/19/box-shadow的用法/10_10_#.png)" alt="box-shadow的用法" class="thumbnail-image"></span>
     
     
         
@@ -374,7 +375,13 @@ favicon.ico
     
 
         <p class="article-excerpt">
-            
+            box-shadow
+IE9 以上支持该属性box-shadow: h-shadow v-shadow blur spread color inset;设定的值分别为：阴影水平方向移动距离、阴影竖直方向移动距离、模糊距离、阴影的尺寸、颜色、内阴影；根据这些值自由搭配出元素的阴影
+
+举例：
+
+box-shadow: 10px 10px #abcabc;
+bao-shadow: 10px 10px 1
         </p>
     </div>
 </article>
@@ -575,7 +582,7 @@ favicon.ico
                             <a href="/2016/10/19/box-shadow的用法/" class="thumbnail">
     
     
-        <span style="background-image:url(/2016/10/19/box-shadow的用法/)" alt="box-shadow的用法" class="thumbnail-image"></span>
+        <span style="background-image:url(/2016/10/19/box-shadow的用法/10_10_#.png)" alt="box-shadow的用法" class="thumbnail-image"></span>
     
     
 </a>
@@ -651,7 +658,7 @@ favicon.ico
     <div class="widget-wrap widget-list">
         <h3 class="widget-title">标签</h3>
         <div class="widget">
-            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/html/">html</a><span class="tag-list-count">2</span></li></ul>
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/css/">css</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/html/">html</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/js/">js</a><span class="tag-list-count">1</span></li></ul>
         </div>
     </div>
 
@@ -661,7 +668,7 @@ favicon.ico
     <div class="widget-wrap widget-float">
         <h3 class="widget-title">标签云</h3>
         <div class="widget tagcloud">
-            <a href="/tags/html/" style="font-size: 10px;">html</a>
+            <a href="/tags/css/" style="font-size: 10px;">css</a> <a href="/tags/html/" style="font-size: 20px;">html</a> <a href="/tags/js/" style="font-size: 10px;">js</a>
         </div>
     </div>
 
